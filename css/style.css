@@ -421,3 +421,42 @@
     font-size: 30px;
     font-weight: 400;
 }
+
+/* COMMENT */
+.comment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text {
+    color: #000;
+    text-align: center;
+    font-family: Open 'Sans', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.comment-image {
+    text-align: center;
+}
+.comment-img {
+    border-radius: 50px;
+}
+.comment-type {
+    text-align: center;
+    color: #000;
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.comment-name {
+    text-align: center;
+    color: #000;
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
