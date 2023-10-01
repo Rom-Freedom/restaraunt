@@ -268,6 +268,7 @@
 .black-block {
     background:#000;
     padding: 30px 0px;
+    margin-bottom: 130px;
 }
 
 .block-holder {
@@ -299,4 +300,43 @@
 }
 .right-btn:hover {
     background-color: #a35413;
+}
+
+/* DISHES */
+.dishes-title {
+    font-family: 'Tinos', serif;
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 139px;
+}
+.dishes-title span {
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.burgers-image {
+    margin-right: 20px;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burger-text {
+    color: #000;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
 }
