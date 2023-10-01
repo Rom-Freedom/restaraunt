@@ -427,6 +427,7 @@
     background-color: #E5E5E5;
     padding-top: 104px;
     padding-bottom: 139px;
+    margin-bottom: 101px;
 }
 
 .comment-text {
@@ -459,4 +460,36 @@
     font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
+}
+
+/* GALERY */
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+
+.galery-left {
+    margin-right: 20px;
+}
+
+.galery-title {
+    color: #000;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.galery-title span {
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.galery-down,
+.galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
