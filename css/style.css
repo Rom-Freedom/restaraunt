@@ -541,6 +541,24 @@
     display: none;
 }
 
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
+
 /* MOBILE ADAPTATION */
 @media (max-width: 1300px) {
 
