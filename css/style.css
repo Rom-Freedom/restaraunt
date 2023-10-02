@@ -534,4 +534,75 @@
     padding-top: 100px;   
 }
 
+/* BURGER MEMU IS HIDDEN */
+.burger-menu {
+    display: none;
+}
+
+/* MOBILE ADAPTATION */
+@media (max-width: 1300px) {
+
+    .galery-content {
+        display: block;
+    }
+
+    .img-gal,
+    .galery-up,
+    .galery-down {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+
+    .menu-items {
+        display: block;
+    }
+
+    .menu-item {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .header-title {
+        position: static;
+    }
+    .suptitle:before,
+    .suptitle:after {
+        content: none;
+    }
+
+    .cook-content {
+        display: block;
+        }
+    .cook-content img {
+        display: block;
+        margin: 20px auto;
+        }
+
+    .block-holder {
+        display: block;
+        }
+
+    .left-title,
+    .left-text,
+    .right-button {
+        text-align: center;
+    }
+
+    .history-images {
+        display: none;
+    }
+
+    .history-title,
+    .history-desc,
+    .history-number {
+        width: auto;
+    }
+
+}
+
+
 
